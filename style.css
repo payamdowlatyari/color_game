@@ -1,0 +1,61 @@
+body { 
+    background: #232323;
+    font-family: 'Cairo', sans-serif;
+
+}
+
+.square {
+    width: 30%;
+    background: purple;
+    padding-bottom: 30%;
+    float: left;
+    margin: 1.66%;
+    border-radius: 50%;
+    transition: background 0.7s;
+}
+
+#container {
+    margin: 20px auto;
+    max-width: 600px;
+}
+
+h1 {
+    color: whitesmoke;
+    background:  #008080;
+
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 1.1;
+    margin: 0;
+    padding: 10px 0;
+}
+#colorDisplay {
+    font-size: 150%;
+}
+
+#message{
+    color: #232323;
+    height: 40%;
+    color: #008080;
+
+}
+
+#stripe{
+    background: whitesmoke;
+    height: 70px;
+    text-align: center;
+    
+}
+
+.selected{
+    background: gainsboro;
+}
+
+button{
+    border: none;
+    background: none;
+    text-transform: uppercase;
+    height: 60%;
+    transition-delay:  0.3s;
+    outline: none;
+}
